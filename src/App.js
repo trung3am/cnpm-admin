@@ -19,7 +19,8 @@ const App=(props)=> {
     <Router>
       <div className='App'>
         
-        Restaurant management
+        <h1>Restaurant management</h1>
+        <h2>Credential= ID: admin; password: admin</h2>
         {props.user.token ? <button onClick={logOut} >Log Out</button> : <p>Please login</p>}
         {props.user.token ? <div><Link to='/menu'> Menu </Link></div> : <p></p>}
         {props.user.token ? <Link to='/createfood'> createfood </Link> : <p></p>}

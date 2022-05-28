@@ -23,6 +23,7 @@ const MenuPage = (props) => {
         <tr>
           <th>ID</th>
           <th>Name</th>
+          <th>Type</th>
           <th>Description</th>
           <th>Price</th>
           <th>Image</th>
@@ -33,6 +34,7 @@ const MenuPage = (props) => {
             <tr>
               <td>{i.id}</td>
               <td>{i.name}</td>
+              <td>{i.type}</td>
               <td>{i.description}</td>
               <td>{i.price}</td>
               <td><img src={i.image} alt="foodimg" width="200px" height="200px"></img></td>
