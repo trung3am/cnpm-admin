@@ -1,0 +1,54 @@
+
+{[
+    
+    "https://www.savingdessert.com/wp-content/uploads/2015/10/Skillet-Chicken-and-Mushroom-Wine-Sauce-4-500x500.jpg",
+    "https://www.archanaskitchen.com/images/archanaskitchen/0-Archanas-Kitchen-Recipes/2018/Tomato_Basil_Chicken_Recipe-1.jpg",
+    "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F9%2F2021%2F02%2F12%2Fgarlic-butter-steak-bites-FT-RECIPE0221.jpg",
+    "https://cdn.apartmenttherapy.info/image/upload/f_auto,q_auto:eco,c_fill,g_auto,w_1500,ar_3:2/k%2FPhoto%2FRecipes%2F2019-10-how-to-instant-pot-beef-stew%2F2019-10-21_Kitchn88948_HT-Beef-Stew",
+    "https://www.seriouseats.com/thmb/_bXmxkbhXRNHXeqpiMPfe7Pm2lY=/735x0/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2013__04__040313-246922-Sunday-Supper-Jamaican-Beef-StewB-4e9b5747040f4aecbc8d77d2854039ac.jpg",
+    "https://www.rockrecipes.com/wp-content/uploads/2016/04/Mongolian-Beef-close-up.jpg",
+    
+    "https://images.foody.vn/res/g94/935033/prof/s576x330/foody-upload-api-foody-mobile-5-190827162844.jpg",
+    "https://cdn.apartmenttherapy.info/image/upload/f_auto,q_auto:eco,c_fill,g_auto,w_1500,ar_3:2/k%2FPhoto%2FRecipes%2F2019-10-how-to-instant-pot-beef-stew%2F2019-10-21_Kitchn88948_HT-Beef-Stew"
+]
+,
+[
+    " Skillet Chicken and Mushroom Wine Sauce ",
+    " Tomato Basil Chicken Recipe ",
+    " Garlic-Butter Steak Bites ",
+    " Instant Pot Beef Stew ",
+    " Jamaican Beef Stew With Rice Recipe ",
+    "  Mongolian Beef ",
+    " Vegetable Chicken ",
+    " Beefsteak "
+]
+
+[
+    " Fork tender, easy to make, flavorful and delicious! ",
+    " Tomato Basil Chicken Recipe is a lovely chicken dish, succulent breast pieces of chicken is pan seared and dunked in a light and refreshing homemade tomato basil sauce and packed with fresh flavours from basil leaves.  ",
+    " These quickly stir-fried beef bites deliver all the savory luxury of a steakhouse-caliber steak, without the stress over cooking one at home. The buttery, velvety sauce coats every piece nicely, and the vermouth's herbal richness pairs nicely with the savory Worcestershire. Serve as an appetizer with toothpicks, or enjoy over mashed potatoes or polenta. ",
+    " Tender beef stew made in the Instant Pot in less than an hour. ",
+    " Spicy-sweet jerk beef stew offers a sunny taste of the Caribbean, even when it's cold outside. ",
+    " People love this dish for its balance of sweet and salty flavours ",
+    " Delicious ",
+    " Abc "
+]
+
+[
+    " Chicken ",
+    " Chicken ",
+    " Beef ",
+    " Beef ",
+    " Beef ",
+    " Beef ",
+    " Chicken ",
+    " Beef "
+]
+[
+250000,
+380000,
+312000,
+340000,
+400000,
+500000
+]}
