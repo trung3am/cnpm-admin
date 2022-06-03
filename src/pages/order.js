@@ -1,11 +1,30 @@
+import { useState } from "react";
 import { connect } from "react-redux";
 import { Link } from "react-router-dom";
+import EditOrderApi from "../api/editOrder-api";
 import GetOrderApi from "../api/getOrder-api";
 
 import { updateOrder, updateRefresh } from "../store/action.reducer";
 
 
 const OrderPage = (props) => {
+  const [disabled, setdisabled] = useState(false);
+
+  const confirmOrder = async (order) =>{
+    order.status = "CONFIRMED";
+    const res = await EditOrderApi(props.token, order);
+    if(!res || res.status !== 200){
+      alert("fail to confirmed");
+      setdisabled(false);
+      return;
+    } else{
+      alert("OK");
+      await getOrder();
+      // window.location.reload();
+    }
+
+
+  }
   
   async function getOrder() {
     const res = await GetOrderApi();
@@ -26,6 +45,7 @@ const OrderPage = (props) => {
           <th>Total</th>
           <th>Food</th>
           <th>Edit</th>
+          <th>Confirmation</th>
         </tr>
         {props.order.map((i)=>{
           return(
@@ -43,12 +63,12 @@ const OrderPage = (props) => {
                     <td>{e.price}</td>
                     <td>{e.quantity}</td>
                     </tr>
-                    
                   )
                 })}
                 </table>
               </td>
               <td><Link to={`/order/edit/${i._id}`}>Edit order</Link></td>
+              <td>{i.status === "PENDING" ? <button onClick={()=> confirmOrder(i)} disabled={disabled}>confirm order</button> : "confirmed"}</td>
             </tr>
           )
         })}
@@ -60,7 +80,8 @@ const OrderPage = (props) => {
 const mapStateToProps = (state) => {
   return {
     order : state.restaurant.order,
-    refresh : state.restaurant.refresh
+    refresh : state.restaurant.refresh,
+    token : state.user.currentUser.token
   }
 }
 
