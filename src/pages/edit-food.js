@@ -49,7 +49,7 @@ const EditFood = (props) => {
   return(
     <div className="edit-food">
       <Link to='/menu'>back to menu</Link>
-      <h1>edit some foooooooooooooooood</h1>
+      <h1>edit some food</h1>
       <h2>ID: {food.id}</h2>
       <p>name:</p>
       <input type="name" 

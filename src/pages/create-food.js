@@ -41,7 +41,7 @@ const CreateFood = (props) => {
   return(
     <div className="create-food">
       
-      <h1>Make some foooooooooooooooood</h1>
+      <h1>Make some food</h1>
       <Link to='/menu'>back to menu</Link>
       <p>name:</p>
       <input type="name" 

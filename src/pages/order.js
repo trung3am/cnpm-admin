@@ -46,6 +46,7 @@ const OrderPage = (props) => {
           <th>Food</th>
           <th>Edit</th>
           <th>Confirmation</th>
+          <th>Created At</th>
         </tr>
         {props.order.map((i)=>{
           return(
@@ -69,6 +70,7 @@ const OrderPage = (props) => {
               </td>
               <td><Link to={`/order/edit/${i._id}`}>Edit order</Link></td>
               <td>{i.status === "PENDING" ? <button onClick={()=> confirmOrder(i)} disabled={disabled}>confirm order</button> : "confirmed"}</td>
+              <td>{i.createdAt}</td>
             </tr>
           )
         })}
